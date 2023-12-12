@@ -27,7 +27,7 @@ const Discover = () => {
                 <div className="flex flex-col p-4 pt-10">
 
                     <div className="flex flex-row">
-                        <h1 className="text-5xl">How to get started on Crewlance</h1>
+                        <h1 className="text-5xl mb-5">How to get started on Crewlance</h1>
                     </div>
                     
                     <SliderCard data={data} />

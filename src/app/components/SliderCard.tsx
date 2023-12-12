@@ -8,8 +8,8 @@ type NextArrowProps = CustomArrowProps & {
 
 const NextArrow: React.FC<NextArrowProps> = ({ onClick }) => {
   return (
-    <div className="absolute right-0 -top-[20px]" onClick={onClick}>
-      <div className="flex flex-row place-items-center cursor-pointer h-[50px] w-[50px]">
+    <div className="absolute right-0 -top-[38px]" onClick={onClick}>
+      <div className="flex place-items-center cursor-pointer h-[50px] w-[60px]">
         <FaArrowRight />
       </div>
     </div>
@@ -22,8 +22,8 @@ type PrevArrowProps = CustomArrowProps & {
 
 const PrevArrow: React.FC<PrevArrowProps> = ({ onClick }) => {
   return (
-    <div className="absolute right-[80px] -top-[20px]" onClick={onClick}>
-      <div className="flex flex-row place-items-center cursor-pointer h-[50px] w-[50px]">
+    <div className="absolute right-[80px] -top-[38px]" onClick={onClick}>
+      <div className="flex place-items-center cursor-pointer h-[50px] w-[50px]">
         <FaArrowLeft />
       </div>
     </div>
