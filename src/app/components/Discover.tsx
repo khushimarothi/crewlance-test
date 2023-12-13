@@ -22,8 +22,8 @@ const Discover = () => {
 
 
     return (
-        <div className="flex">
-            <div className="container p-4">
+        <div>
+            <div className="p-4">
                 <div className="flex flex-col p-4 pt-10">
 
                     <div className="flex flex-row">
