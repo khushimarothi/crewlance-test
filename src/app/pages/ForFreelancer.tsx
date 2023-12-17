@@ -8,6 +8,7 @@ import bottomRight from '../../../public/assets/freelancers/bottom_right.png'
 
 const ForFreelancer = () => {
   return (
+    <div>
     <div className="flex" style={{ height: "calc(100% - 88px)" }}>
       {/* left */}
       <div className="flex flex-col self-center w-2/5 gap-4 pl-5 ">
@@ -38,6 +39,11 @@ const ForFreelancer = () => {
         <Image src={bottomLeft} alt="graphics" className="absolute w-40 left-28 aspect-square bottom-10 rounded-xl" />
         <Image src={bottomRight} alt="graphics" className="absolute right-0 w-72 bottom-20 rounded-xl" />
       </div>
+
+
+</div>
+
+
     </div>
   );
 }

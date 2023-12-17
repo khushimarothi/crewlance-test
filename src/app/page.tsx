@@ -6,7 +6,9 @@ import ForFreelancer from "./pages/ForFreelancer"
 import Start from "./components/Start"
 import Footer from "./components/Footer"
 import Discover from "./components/Discover"
-
+import Customise from "./components/Customise"
+import ProAnalytics from "./components/ProAnalytics"
+import Compare from "./components/Compare"
 export default function Home() {
   const searchParams = useSearchParams()
   const userType = searchParams.get('userType')
@@ -38,7 +40,9 @@ export default function Home() {
       </div>
 
       <Start {...startContent}/>
-
+<Customise />
+<ProAnalytics />
+<Compare />
       <Discover  />
     </div>
   )
